@@ -8,9 +8,9 @@ The assignment is to test a JavaScript [library](https://github.com/otula/COMP.S
 
 ## Tools
 <ul>
-    <li>[Jest](https://jestjs.io/) JavaScript testing library</li>
-    <li>[Travis CI](https://www.travis-ci.com/) continuous integration service</li>
-    <li>[Coveralls](https://coveralls.io/) test coverage and statistics</li>
+    <li><a href="https://jestjs.io/">Jest</a> JavaScript testing library</li>
+    <li><a href="https://www.travis-ci.com/">Travis CI</a> continuous integration service</li>
+    <li><a href="https://coveralls.io/">Coveralls</a> test coverage and statistics</li>
 </ul>
 
 ## CI
