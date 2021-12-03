@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest test --silent --coverage=true",
     "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
     "coveralls": "^3.1.1",
     "jest": "^27.4.3"
   }

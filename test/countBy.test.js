@@ -1,4 +1,4 @@
-import countBy from "../src/countBy.js";
+import countBy from "../src/countBy";
 
 test('Tests array of numbers with floor function applied to keys', ()=>{
     expect(countBy([6.1, 4.2, 6.3], Math.floor)).toBe({'4': 1, '6': 2});
