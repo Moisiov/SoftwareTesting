@@ -5,6 +5,15 @@ node_js:
 branches:
     only:
         - master
+sudo: required
+addons:
+    apt:
+        sources:
+            - ubuntu-toolchain-r-test
+        packages:
+            - g++-5.0
+env:
+    - CXX=g++-5.0
 cache:
     directories:
         - node_modules
