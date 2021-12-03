@@ -1,4 +1,7 @@
 language: node_js
+node_js:
+    - node
+    - lts/*
 branches:
     only:
         - master
@@ -6,7 +9,6 @@ cache:
     directories:
         - node_modules
 before_install:
-    - npm install -g node-gyp
     - npm update
 install:
     - npm install
