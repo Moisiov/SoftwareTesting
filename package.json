@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest test --silent --coverage=true",
-    "coveralls": "jest --coverage && coveralls < coverage/lcov.info"
+    "test": "jest --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "jest": {
     "transform": {
