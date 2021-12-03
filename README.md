@@ -13,7 +13,7 @@ The assignment is to test a JavaScript [library](https://github.com/otula/COMP.S
     <li><a href="https://coveralls.io/">Coveralls</a> test coverage and statistics</li>
 </ul>
 
-## CI
+## CI status
 |Branch|Travis CI|Coveralls|
 |---|---|---|
 |master|[![Build Status](https://app.travis-ci.com/Moisiov/SoftwareTesting.svg?branch=master)](https://app.travis-ci.com/Moisiov/SoftwareTesting)|[![Coverage Status](https://coveralls.io/repos/github/Moisiov/SoftwareTesting/badge.svg?branch=master)](https://coveralls.io/github/Moisiov/SoftwareTesting?branch=master)|
