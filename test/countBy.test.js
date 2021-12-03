@@ -1,15 +1,15 @@
 import countBy from "../src/countBy";
 
-test('Tests array of numbers with floor function applied to keys', ()=>{
+test('Tests array of numbers with floor function applied to keys', () => {
     expect(countBy([6.1, 4.2, 6.3], Math.floor)).toBe({'4': 1, '6': 2});
 });
 
-test('Tests array of strings using property iteratee shorthand', ()=>{
-    expect(countBy(['one', 'two', 'three'], 'length')).toBe({'3': 2, '5': 1});
+test('Tests array of strings using property iteratee shorthand', () => {
+    expect(countBy(['one', 'two', 'three'], str => str.length)).toBe({'3': 2, '5': 1});
 });
 
 test('Tests empty array', () => {
-    expect(countBy([])).toBe({});
+    expect(countBy([])).toEqual({});
 });
 
 test('Tests array with empty strings', () => {
@@ -18,7 +18,7 @@ test('Tests array with empty strings', () => {
 
 //Loadash documentation specifies countBy to throw TypeError when 
 test('Tests null value', () => {
-    expect(countBy(null)).toBe({});
+    expect(countBy(null)).toEqual({});
 });
 
 test('Tests empty string', () => {
