@@ -1,4 +1,4 @@
-# Software testing assignment
+# Software testing
 
 ## Purpose of this repository
 
