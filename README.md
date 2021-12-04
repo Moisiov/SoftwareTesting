@@ -16,5 +16,5 @@ The assignment is to test a JavaScript [library](https://github.com/otula/COMP.S
 ## CI status
 |Branch|Travis CI|Coveralls|
 |---|---|---|
-|master|[![Build Status](https://app.travis-ci.com/Moisiov/SoftwareTesting.svg?branch=master)](https://app.travis-ci.com/Moisiov/SoftwareTesting)|[![Coverage Status](https://coveralls.io/repos/github/Moisiov/SoftwareTesting/badge.svg?branch=master)](https://coveralls.io/github/Moisiov/SoftwareTesting?branch=master)|
-|develop|[![Build Status](https://app.travis-ci.com/Moisiov/SoftwareTesting.svg?branch=develop)](https://app.travis-ci.com/Moisiov/SoftwareTesting)|[![Coverage Status](https://coveralls.io/repos/github/Moisiov/SoftwareTesting/badge.svg?branch=develop)](https://coveralls.io/github/Moisiov/SoftwareTesting?branch=develop)|
+|master|[![Build Status](https://app.travis-ci.com/Moisiov/SoftwareTesting.svg?branch=master)](https://app.travis-ci.com/Moisiov/SoftwareTesting)|[![Coverage Status](https://coveralls.io/repos/github/Moisiov/SoftwareTesting/badge.svg?branch=master?service=github)](https://coveralls.io/github/Moisiov/SoftwareTesting?branch=master)|
+|develop|[![Build Status](https://app.travis-ci.com/Moisiov/SoftwareTesting.svg?branch=develop)](https://app.travis-ci.com/Moisiov/SoftwareTesting)|[![Coverage Status](https://coveralls.io/repos/github/Moisiov/SoftwareTesting/badge.svg?branch=develop?service=github)](https://coveralls.io/github/Moisiov/SoftwareTesting?branch=develop)|
