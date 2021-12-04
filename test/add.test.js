@@ -4,8 +4,16 @@ test('Add two integers', () => {
     expect(add(123, 45)).toBe(168)
 })
 
+test('Add two negative integers', () => {
+    expect(add(-123, -45)).toBe(-168)
+})
+
 test('Add two decimals', () => {
     expect(add(0.003, 0.21)).toBe(0.213)
+})
+
+test('Add two negative decimals', () => {
+    expect(add(-0.003, -0.21)).toBe(-0.213)
 })
 
 test('Add zero to integer', () => {
