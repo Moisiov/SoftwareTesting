@@ -19,3 +19,11 @@ test('String ends in given substring', () => {
 test('String ends in given substring on given position', () => {
     expect(endsWith('abcdefg', 'cde', 5)).toBe(true)
 })
+
+test('Negative position', () => {
+    expect(endsWith('abcdefg', 'cde', -7)).toBe(false)
+})
+
+test('Position greater than string length', () => {
+    expect(endsWith('abcdefg', 'cde', 45)).toBe(false)
+})
