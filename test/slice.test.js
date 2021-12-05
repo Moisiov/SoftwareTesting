@@ -43,5 +43,5 @@ test('null array', () => {
 });
 
 test('negative starting point with higher abs value than array length', () => {
-    expect(slice([1,2,3], -4)).toStrictEqual([3]);
+    expect(slice([1,2,3], -4)).toStrictEqual([1,2,3]);
 });
