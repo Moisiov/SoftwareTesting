@@ -37,3 +37,11 @@ test('undefined + empty string as value', () => {
         "d"
      ]);
 });
+
+test('null array', () => {
+    expect(slice(null, -1)).toStrictEqual([]);
+});
+
+test('negative starting point with higher abs value than array length', () => {
+    expect(slice([1,2,3], -4)).toStrictEqual([3]);
+});
