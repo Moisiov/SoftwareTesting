@@ -43,3 +43,7 @@ test('array with one number as number of elements dropped', () => {
 test('null parameter', () => {
     expect(drop(null)).toStrictEqual([]);
 });
+
+test('negative parameter', () => {
+    expect(drop([4,3,2,1], -3)).toStrictEqual([4,3,2,1])
+})
